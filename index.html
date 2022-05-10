@@ -208,12 +208,12 @@
                         <div class="label-year">21.09</div>
                         <div class="label-year">21.11</div>
                         <div class="label-year">22.01</div>
-                        <div class="label-year">22.04</div>
+                        <div class="label-year">22.05</div>
                       </div>
                       <div class="grid-timeline">
                         <div
                           data-original-title=""
-                          data-content='비개발 경력 6년lt;h6 class="text-mute"&gt;2015.07~2022.04&lt;/h6&gt;'
+                          data-content='비개발 경력 6년lt;h6 class="text-mute"&gt;2015.07~2022.05&lt;/h6&gt;'
                           data-html="true"
                           data-toggle="popover"
                           data-placement="top"
@@ -283,8 +283,7 @@
                           의사소통의 중요성을 또 한 번 깨달았습니다. 명품이라는
                           주제로 진행하는 프로젝트 특성상 결제 시스템의 안정성을
                           높여야 한다고 생각했던 저는 구매자가 구매 확정을 한 후
-                          판매자에게 결제 완료를 알리는 방식을 원했고 그렇다
-                          보니 벡엔드 동기와의 의견 차이가 있었습니다. 구매 확정
+                          판매자에게 결제 완료를 알리는 방식을 원하다 보니 데이터 처리와 관련해서 벡엔드 동기와의 의견 차이가 있었습니다. 구매 확정
                           전까지 관리자 계정을 통해 결제를 진행하는 방식으로
                           절충안을 내기까지 하루에 2번 이상의 회의를 거치곤
                           했습니다. 하지만 타 직군에 대해 조금 더 이해하고
@@ -355,19 +354,22 @@
                       <li>Docker</li>
                     </ul>
                     <h5 class="resume-card-item-text">
-                      젊은 층에서 명품 소비가 늘어남에 따라 명품에 대한 진입 장벽을 낮추고 명품을 거래할 수 있도록 만든 사이트 
+                      젊은 층에서 명품 소비가 늘어남에 따라 명품에 대한 진입 장벽을 낮추어 명품을 친근하게 거래할 수 있도록 만든 서비스
                     </h5>
                     <div class="markdown github markdown-viewer">
                       <div>
                         <ul style="list-style-type: circle">
                           <li>
-                            메인 페이지, 상품 상세 페이지, 결제 페이지 제작
+                            메인 페이지, 상품 상세 페이지, 결제 페이지 제작 담당
                           </li>
                           <li>
-                            imp_uid를 활용한 결제 시스템 구현
+                            아임 포트를 활용한 결제 시스템 구현
                           </li>
                           <li>
-                            카카오톡 페이지 공유 및 SSR으로 meta tag 구현
+                            Graph-ql 활용한 데이터 처리
+                          </li>
+                          <li>
+                            다음 포스트코드를 활용한 주소 등록 및 조회
                           </li>
                           <li>
                             Docker 및 GCP 배포
@@ -438,7 +440,6 @@
                       <li>GitHub</li>
                       <li>GCP</li>
                       <li>Docker</li>
-                    
                     </ul>
                     <h5 class="resume-card-item-text">
                       게시판 CRUD, 중고 마켓 CRUD 기능 구현을 기반으로 한 개인 프로젝트
@@ -450,10 +451,19 @@
                             OPEN-API를 활용한 국가별 환율 조회 구현 
                           </li>
                           <li>
+                            Query Parameter 활용한 검색 기능 구현
+                          </li>
+                          <li>
+                            Graph-ql 활용한 데이터 처리
+                          </li>
+                          <li>
                             다음 포스트코드를 활용한 주소 등록 및 조회
                           </li>
                           <li>
                             카카오 지도 API를 활용한 위치 기능 구현
+                          </li>
+                          <li>
+                            아임 포트를 활용한 결제 시스템 구현
                           </li>
                           <li>
                             Docker 및 GCP 배포
@@ -509,61 +519,45 @@
                       <li>GitHub</li>
                     </ul>
                     <h5 class="resume-card-item-text">
-                      KANU 홈페이지 / 랜딩페이지 구현
+                      KANU 홈페이지 리뉴얼
                     </h5>
                     <div class="markdown github markdown-viewer">
-                      <div>
                         <ul style="list-style-type: circle">
                           <li>
-                            팀 협업을 위해 가볍게 시작한 첫 프로젝트로, 자유도가
-                            높은 micro-framework Python Flask 통해 개발.
+                            반응형 웹페이지 퍼블리싱
                           </li>
-                          <li>
-                            배달 플랫폼 "요기요"의 API 허락 하에 사용함. But,
-                            외부 API에 대한 의존성을 감소시키기 위해 데이터
-                            내재화 노력함.
-                          </li>
-                          <li>
-                            NoSQL MongoDB 기반으로 개발하면서 데이터 읽기 쓰기가
-                            빠르고 유연하고 자유로운 NoSQL 장점을 알게 됨
-                          </li>
-                          <li>
-                            AWS EC2 에 MonogoDB + FLASK + WSGI + NGINX 를 직접
-                            설치해 배포해 보았으나 시간 상의 비효율을 느낌.
-                          </li>
-                          <li>
-                            Github Actions 활용하여 백엔드 부분은 Amazon
-                            ElasticBeanstalk, 프론트엔드 부분은 대상폴더 S3
-                            동기화 및 기존 캐싱 데이터 무효화를 자동화하여
-                            CloudFront 이용해 각각 배포하는 역할을 맡음.
-                          </li>
-                          <li>
-                            완벽한 웹 구성을 모두 갖추지 않아도 간단하고
-                            RESTful한 API 서버를 개발할 수 있는 장점.
+                          <li class="list-contribution-item">
+                            <i class="fab fa-github"></i>
+                            <a
+                              style="color: #263747"
+                              href="https://github.com/kwonjihyeon2/kanu_onepage"
+                              target="_blank"
+                              rel="noopener"
+                              >https://github.com/kwonjihyeon2/kanu_onepage</a
+                            >
                           </li>
                         </ul>
-                      </div>
                     </div>
-                    <ul class="list-contributions">
-                      <li class="list-contribution-item">
-                        <i class="fab fa-github"></i>
-                        <a
-                          href="https://github.com/AndrewDongminYoo/my-small-meal"
-                          target="_blank"
-                          rel="noopener"
-                          >https://github.com/AndrewDongminYoo/my-small-meal</a
-                        >
-                      </li>
-                      <li class="list-contribution-item">
-                        <i class="fas fa-comment"></i>
-                        <a
-                          href="https://www.youtube.com/watch?v=JCqEx_-BMEY"
-                          target="_blank"
-                          rel="noopener"
-                          >https://www.youtube.com/watch?v=JCqEx_-BMEY</a
-                        >
-                      </li>
-                    </ul>
+                    <h5 class="resume-card-item-text">
+                      랜딩 페이지 제작
+                    </h5>
+                    <div class="markdown github markdown-viewer">
+                        <ul style="list-style-type: circle">
+                          <li>
+                            부트스트랩 활용 반응형 랜딩 페이지 퍼블리싱
+                          </li>
+                          <li class="list-contribution-item">
+                            <i class="fab fa-github"></i>
+                            <a
+                            style="color: #263747"
+                              href="https://github.com/kwonjihyeon2/jomalone"
+                              target="_blank"
+                              rel="noopener"
+                              >https://github.com/kwonjihyeon2/jomalone</a
+                            >
+                          </li>
+                        </ul>
+                    </div>
                   </div>
                 </div>
                 
@@ -599,7 +593,7 @@
                     <ul class="list-contributions">
                       <li class="list-contribution-item">
                         <h5 class="part-title">
-                          친목 어플리케이션 개발
+                          친목 어플리케이션
                         </h5>
                         <div>
                           <ul style="list-style-type: circle">
