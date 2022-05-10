@@ -5397,6 +5397,10 @@ div[class^="icon-remove-"]:hover * {
 .resume-card-item-label + .resume-card-item-text {
   margin-top: 0.5rem;
 }
+
+.margin-top {
+  margin-top: 0.5rem;
+}
 .resume-card-item-period {
   display: flex;
   flex-direction: column;
