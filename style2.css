@@ -4575,7 +4575,9 @@ div[class^="icon-remove-"]:hover * {
 .personal-information .name h1 {
   word-break: keep-all;
 }
-
+.keep-all {
+  word-break: keep-all;
+}
 .resume__preview .timeline-wrap {
   display: flex;
   flex-direction: column;
