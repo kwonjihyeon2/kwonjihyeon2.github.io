@@ -4572,6 +4572,10 @@ div[class^="icon-remove-"]:hover * {
   align-items: center;
   justify-content: space-between;
 }
+.personal-information .name h1 {
+  word-break: keep-all;
+}
+
 .resume__preview .timeline-wrap {
   display: flex;
   flex-direction: column;
