@@ -176,6 +176,12 @@ body {
   color: #263747;
   overflow-x: hidden;
 }
+.blue {
+  color: #0078ff !important;
+}
+.blue:hover {
+  color: #263747 !important;
+}
 a:focus,
 button:focus {
   outline: 0;
